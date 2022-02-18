@@ -1,0 +1,129 @@
+
+
+#FW
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+}
+
+/*h1 == Titulo*/
+h1, p 
+{
+    text-align: center;
+}
+
+/*Letra do Titulo*/
+.content
+{
+    
+    top: 0;
+    background:  rgba(56, 56, 184, 0.753);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 19.9px;
+    padding-bottom: 19.9px;
+}
+
+
+/*Estilo do botão*/
+.content_Button
+{
+    top: 10;
+    background: rgba(36, 35, 35, 0.5);
+    color: rgb(32, 32, 32) ;
+    width: 33%;
+    padding-top: 19.9px;
+    padding-bottom: 19.9px;
+    
+
+}
+
+
+/*Estilo do botão do discord*/
+.content_ButtonLink
+{
+    top: 10;
+    background: rgba(36, 35, 35, 0.5);
+    color: rgb(32, 32, 32) ;
+    width: 33%;
+    padding-top: 19.9px;
+    padding-bottom: 19.9px;
+    
+
+}
+
+.content_Tabela  
+{
+    top: 0px;
+    height: 100%;
+    width: 80%;
+    table-layout: fixed;    
+}
+
+/*Estilo do botão selecionado*/
+.content_Selecionada
+{
+    top: 0;
+    background: rgba(56, 56, 184, 0.753);
+    color: rgb(255, 255, 255) ;
+    width: 33%;
+    padding-top: 19.9px;
+    padding-bottom: 19.9px;
+
+}
+
+
+
+/*Estilo texto do Inicial*/
+h2, p 
+{
+    text-align: center;
+}
+
+/*Estilo texto das Regras*/
+h3, p 
+{
+    text-align: center;
+}
+
+/*Estilo texto do Tutorial*/
+h4, p 
+{
+    color: white;
+   
+}
+
+/*Estilo do nome dos participantes*/
+.content_NomeParticipantes
+{
+    top: 0;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    table-layout: fixed;
+}
+
+/*Necessario para o content_imagens*/
+img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*Estilo das imagens*/
+.content_imagens
+{
+    height: 600px;
+    width: 600px;
+  
+}
+
+
+
+
+
